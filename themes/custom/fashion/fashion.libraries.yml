@@ -7,5 +7,7 @@ global-js:
   js:
     assets/scripts/helper.js: {}
     assets/scripts/default.js: {}
+    assets/scripts/libs/jquery-3.1.1.min.js: {}
+    assets/scripts/libs/jquery.slick.min.js: {}
   dependencies:
     - core/jquery
