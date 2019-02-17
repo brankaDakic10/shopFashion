@@ -1,0 +1,29 @@
+<div class="container">
+  <span class="page-overlay"></span>
+  {% include directory ~ '/partials/header.html.twig' %}
+
+  {{ page.content }}
+
+  {% include directory ~ '/partials/footer.html.twig' %}
+
+
+  <!-- subscribe block -->
+  <div class="subscribe-block">
+    <h2>Subscribe to our newsletter</h2>
+    <p>Subscribe to our newsletter and get 10% off on your first order.</p>
+    <form action="">
+      <input type="email" placeholder="E-mail address">
+      <div class="form-item checkbox">
+        <input id="man" type="checkbox" name="category" value="">
+        <label class="form-checkbox" for="man">Man</label>
+      </div>
+      <div class="form-item checkbox">
+        <input id="women" type="checkbox" name="category" value="">
+        <label class="form-checkbox" for="women">Women</label>
+      </div>
+      <button type="submit" class="btn btn-black btn-big">Subscribe</button>
+    </form>
+    <a href="javascript:;" class="icon font-ico-close-big js-subscribe-close"></a>
+  </div>
+</div>
+
